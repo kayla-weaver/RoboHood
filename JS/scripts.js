@@ -4,8 +4,9 @@ window.onload= function(){
     function checkInp(num) {
         if(!isNaN(num)){
             // console.log("yas numba")
-            const array= num.split("");
-            return array;
+            const unfold = (accumulator, length) => length <= 0 ? accumulator : unfold([length, ...accumulator], length -1)
+            const result= unfold([],num)
+            return result;
         // return value+ numbers before value
     }
         else {
@@ -14,11 +15,14 @@ window.onload= function(){
         }
     }
 }
-// for (let i=num; i=0;index-=1)
 
 
 
 // for (let i=num; i=0;index-=1)
 
 
-<= number
+
+// for (let i=num; i=0;index-=1)
+
+
+// <= number
