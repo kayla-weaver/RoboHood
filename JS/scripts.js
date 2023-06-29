@@ -4,7 +4,9 @@ window.onload= function(){
     function checkInp(num) {
         if(!isNaN(num)){
             // console.log("yas numba")
-        return true;
+            const array= num.split("");
+            return array;
+        // return value+ numbers before value
     }
         else {
             // console.log("nope numba")
@@ -12,3 +14,11 @@ window.onload= function(){
         }
     }
 }
+// for (let i=num; i=0;index-=1)
+
+
+
+// for (let i=num; i=0;index-=1)
+
+
+<= number
