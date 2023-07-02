@@ -1,8 +1,8 @@
-# _{RoboHood}_
+# _RoboHood_
 
-#### By _**{Kayla Weaver}**_
+#### By _**Kayla Weaver**_
 
-#### _{This application will take a number, bring up every number before it, then replace every 1 with "Beep" 2 with "Beep" and 3 with "won't you be  my neighbor.}_
+#### _This application will take a number, bring up every number before it, then replace every 1 with "Beep" 2 with "Beep" and 3 with "won't you be  my neighbor._
 
 ## Technologies Used
 
