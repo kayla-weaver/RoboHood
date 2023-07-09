@@ -22,14 +22,12 @@
   }
 
 
-
-
 //user interface logic 
 
 function handleFormSubmission(e) {
   e.preventDefault();
   const input = document.getElementById("PutYaNumba").value; 
-  document.getElementById("new-nums").textContent = input;
+  document.getElementById("new-nums").textContent = checkInp(input);
 }
 
 window.addEventListener("load", function() {
