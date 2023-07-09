@@ -1,28 +1,29 @@
-window.onload= function(){
-    
-    // console.log("onload is working")
-    function checkInp(num) {
-        if(!isNaN(num)){
-            // console.log("yas numba")
-            const unfold = (accumulator, length) => length <= 0 ? accumulator : unfold([length, ...accumulator], length -1)
-            const result= unfold([],num)
-            return result;
-        // return value+ numbers before value
-    }
-        else {
-            // console.log("nope numba")
-            return false;
+// business logic 
+
+
+window.onload = function () {
+  
+  function checkInp(num) {
+    let result = [];  
+    if (!isNaN(num)) {
+      for (let index= 0; index <= num; index += 1){
+        let newNum = index.toString().split("");
+        if (newNum.includes("1")){
+          result.push("Beep!");
+        } else {
+          result.push(index);
         }
+      }  
+    } else {
+      return false;
     }
-}
+    return result;
+  }
+
+};
 
 
 
-// for (let i=num; i=0;index-=1)
 
+//user interface logic 
 
-
-// for (let i=num; i=0;index-=1)
-
-
-// <= number
