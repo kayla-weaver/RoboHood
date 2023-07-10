@@ -24,7 +24,7 @@
 
 ## Known Bugs
 
-* I have not yet got any of the substitutions to work
+* No known bugs to report! 
 
 ## License
 
