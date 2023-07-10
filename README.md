@@ -7,7 +7,6 @@
 ## Technologies Used
 
 * HTML
-* CSS
 * JavaScript
 
 ## When you input a number, this website will list 0- your number in whole numbers, after it does  that it will replace every 1 that it finds with "Beep", every 2 that it finds with "Boop" and  every 3 that it finds with "won't you be my neighbor?"
